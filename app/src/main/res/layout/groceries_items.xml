@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/groceries_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp" />
+
+        <TextView
+            android:id="@+id/groceries_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Line 1"
+            android:layout_toEndOf="@+id/groceries_image"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/groceries_image" />
+
+        <TextView
+            android:id="@+id/groceries_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Line 2"
+            android:layout_toEndOf="@+id/groceries_image"
+            android:layout_below="@+id/groceries_text1"
+            android:layout_toRightOf="@+id/groceries_image" />
+
+        <ImageButton
+            android:id="@+id/NumMinus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:drawable/ic_delete" />
+
+        <ImageButton
+            android:id="@+id/NumPlus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@+id/NumMinus"
+            android:background="@android:drawable/ic_input_add" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

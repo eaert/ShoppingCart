@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ShoppingCart</string>
+    <string name="username">Username</string>
+    <string name="signup">Signup</string>
+    <string name="name">Name</string>
+    <string name="shopping_cart_app">Shopping Cart App</string>
+    <string name="login">Login</string>
+    <string name="new_cart">New Cart</string>
+    <string name="cart_name">Cart Name</string>
+    <string name="create">Create</string>
+    <string name="password">Password</string>
+    <string name="save">Save</string>
+    <string-array name="spinner_array">
+        <item>Load</item>
+        <item>Create</item>
+    </string-array>
+</resources>
